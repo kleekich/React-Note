@@ -27,6 +27,7 @@ export default class App extends React.Component {
 		return (
 			<div>
 				<h1>React ToDos App!!</h1>
+				<CreateTodo />
 				<TodosList todos={this.state.todos} />
 			</div>
 		);
