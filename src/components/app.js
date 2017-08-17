@@ -32,6 +32,7 @@ export default class App extends React.Component {
 				<TodosList 
 					todos={this.state.todos} 
 					toggleTask={this.toggleTask.bind(this)}
+					saveTask={this.saveTask.bind(this)}
 				/>
 			</div>
 		);
