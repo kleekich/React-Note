@@ -1,6 +1,6 @@
 import React from 'react';
 import TodosList from './todos-list';
-
+import CreateTodo from './create-todos';
 const todos = [
 	{
 		task: 'Make tutorial',
